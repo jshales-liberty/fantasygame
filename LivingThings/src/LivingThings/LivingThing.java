@@ -19,7 +19,7 @@ abstract public class LivingThing {
 		target.takeDamage(this.attackPower);
 	}
 
-	public void takeDamage(double damage) {
+	public void takeDamage(do  uble damage) {
 		this.health = this.health - damage;
 	}
 
